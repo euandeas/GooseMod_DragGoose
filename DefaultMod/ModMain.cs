@@ -38,7 +38,7 @@ namespace DragGoose
             float xDif = g.position.x - Input.mouseX;
             float yDif = g.position.y - Input.mouseY;
 
-            if (((-40 < xDif) && (xDif < 40)) && ((-40 < yDif) && (yDif < 40)))
+            if (((-45 < xDif) && (xDif < 45)) && ((-45 < yDif) && (yDif < 45)))
             {
                 return true;
             }
